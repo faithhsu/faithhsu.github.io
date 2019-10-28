@@ -26,13 +26,13 @@ https://{azure-project-name}.azurewebsites.net/callback
 ```
 
 三、準備line-bot-sdk-python環境  
-1. 下載line-bot-sdk-python程式碼，並以falsk-echo為範例  
+1. 下載line-bot-sdk-python程式碼，並以flask-echo為範例  
 ```
 $ git clone https://github.com/line/line-bot-sdk-python.git
-$ cd line-bot-sdk-python/examples/falsk-echo
+$ cd line-bot-sdk-python/examples/flask-echo
 ```
   
-2. 修改channel_secret與channel_access_token為自己line-bot上的值
+2. 修改`app.py`中的channel_secret與channel_access_token為自己line-bot Messaging API設定上的值
 ```
 channel_secret = 'your channel secret'
 channel_access_token = 'your access token'
