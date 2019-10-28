@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Line Bot with Azure Web App"
+title:  "Line Bot Python with Azure Web App"
 date:   2019-10-28 11:16:30 +0800
 categories: faith hsu update
 ---
