@@ -2,7 +2,7 @@
 layout: post
 title:  "Line Bot with Azure Web App"
 date:   2019-10-28 11:16:30 +0800
-categories: jekyll update
+categories: faith hsu update
 ---
 本教學使用[line bot python sdk][line-bot-python-sdk]搭載[Azure Web App][azure-web-app]
 
@@ -40,7 +40,7 @@ channel_access_token = 'your access token'
   
 3. 將修改過的app.py及requirments.txt複製到azure部屬中心的git repository  
   
-4. add、commit並push到git repository，即會觸發heku進行部屬流程  
+4. add、commit並push到git repository，即會觸發kudu進行部屬流程  
   
 5. 完成  
 可於line Messaging API的Webhook URL進行Verify測試(此處不通, 還未確認原因)  
