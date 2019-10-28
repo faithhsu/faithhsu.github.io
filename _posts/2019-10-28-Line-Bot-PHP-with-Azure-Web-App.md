@@ -40,8 +40,6 @@ $channel_access_token = 'your access token'
 3. 將修改過的line-bot-sdk-tiny資料夾上傳到azure部屬中心的FTP位址  
   
 4. 完成  
-  
-5. 完成  
 可於line Messaging API的Webhook URL進行Verify測試
   
 四、line bot測試  
